@@ -2,8 +2,14 @@
 # Hosting a Full-Stack Application
 
 
-### Deployment Pipeline
+### Architecture
 
+<img src="architechture_diagram.jpg" alt="drawing" width="600"/>
+
+
+<br>
+
+### Deployment Pipeline
 <img src="screenshot/pipeline.png" alt="drawing" width="600"/>
 
 1 - Circle CI Gets Notify by version control on new project verison then Builds the Project and runs test scripts
