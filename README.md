@@ -4,7 +4,7 @@
 
 ### Architecture
 
-<img src="architechture_diagram.jpg" alt="drawing" width="600"/>
+<img src="documentation/architechture_diagram.jpg" alt="drawing" width="600"/>
 
 
 <br>
