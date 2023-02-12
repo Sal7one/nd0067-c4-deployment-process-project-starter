@@ -2,6 +2,8 @@
 
 # Deployment Pipeline
 
+<img src="screenshots/pipeline.png" alt="drawing" width="350"/>
+
 1 - Circle CI Gets Notify by version control on new project verison then Builds the Project and runs test scripts
 
 2 - Circle CI Then Holds and waits for apporval if granted it will start deploying 
@@ -9,18 +11,24 @@
 3 - in Deployment Cricle Ci deploys an elastic beanstalk for the backend and stores the frontend files in an S3 bucket
 
 # LIVE URL (Frontend)
-```
 
+```
+https://salehsubmissionbuckets.s3.amazonaws.com/index.html
 ```
 
 # Backend URL 
 ```
+http://salehsubmission-dev.us-east-1.elasticbeanstalk.com/api/v0
 
 ```
 
-
-
-
+# Screen Shots
+<img src="screenshots/circlecibuild.png" alt="drawing" width="350"/>
+<img src="screenshots/deploy.png" alt="drawing" width="350"/>
+<img src="screenshots/ENVVARS.png" alt="drawing" width="350"/>
+<img src="screenshots/eb.png" alt="drawing" width="350"/>
+<img src="screenshots/s3.png" alt="drawing" width="350"/>
+<img src="screenshots/rds.png" alt="drawing" width="350"/>
 
 
 # Udagram
