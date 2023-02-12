@@ -1,0 +1,17 @@
+branch-defaults:
+  default:
+    environment: salehsubmission-dev
+global:
+  application_name: salehsubmission
+  branch: null
+  default_ec2_keyname: null
+  default_platform: Node.js 14 running on 64bit Amazon Linux 2
+  default_region: us-east-1
+  include_git_submodules: true
+  instance_profile: null
+  platform_name: null
+  platform_version: null
+  profile: default
+  repository: null
+  sc: null
+  workspace_type: Application
