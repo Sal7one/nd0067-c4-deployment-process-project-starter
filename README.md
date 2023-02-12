@@ -2,7 +2,7 @@
 
 # Deployment Pipeline
 
-<img src="screenshots/pipeline.png" alt="drawing" width="350"/>
+<img src="screenshot/pipeline.png" alt="drawing" width="600"/>
 
 1 - Circle CI Gets Notify by version control on new project verison then Builds the Project and runs test scripts
 
@@ -23,12 +23,12 @@ http://salehsubmission-dev.us-east-1.elasticbeanstalk.com/api/v0
 ```
 
 # Screen Shots
-<img src="screenshots/circlecibuild.png" alt="drawing" width="350"/>
-<img src="screenshots/deploy.png" alt="drawing" width="350"/>
-<img src="screenshots/ENVVARS.png" alt="drawing" width="350"/>
-<img src="screenshots/eb.png" alt="drawing" width="350"/>
-<img src="screenshots/s3.png" alt="drawing" width="350"/>
-<img src="screenshots/rds.png" alt="drawing" width="350"/>
+<img src="screenshot/circlecibuild.png" alt="drawing" width="600"/>
+<img src="screenshot/deploy.png" alt="drawing" width="600"/>
+<img src="screenshot/ENVVARS.png" alt="drawing" width="600"/>
+<img src="screenshot/eb.png" alt="drawing" width="600"/>
+<img src="screenshot/s3.png" alt="drawing" width="600"/>
+<img src="screenshot/rds.png" alt="drawing" width="600"/>
 
 
 # Udagram
