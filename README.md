@@ -1,6 +1,8 @@
+
 # Hosting a Full-Stack Application
 
-# Deployment Pipeline
+
+### Deployment Pipeline
 
 <img src="screenshot/pipeline.png" alt="drawing" width="600"/>
 
@@ -10,19 +12,18 @@
 
 3 - in Deployment Cricle Ci deploys an elastic beanstalk for the backend and stores the frontend files in an S3 bucket
 
-# LIVE URL (Frontend)
+## LIVE URL (Frontend)
 
-```
-https://salehsubmissionbuckets.s3.amazonaws.com/index.html
-```
+<a href="https://salehsubmissionbuckets.s3.amazonaws.com/index.html"> Frontend</a>
 
-# Backend URL 
-```
-http://salehsubmission-dev.us-east-1.elasticbeanstalk.com/api/v0
+## LIVE URL (Backend)
 
-```
+<a href="http://salehsubmission-dev.us-east-1.elasticbeanstalk.com/api/v0"> Backend</a>
 
-# Screen Shots
+
+
+## Screen Shots 
+
 <img src="screenshot/circlecibuild.png" alt="drawing" width="600"/>
 <img src="screenshot/deploy.png" alt="drawing" width="600"/>
 <img src="screenshot/ENVVARS.png" alt="drawing" width="600"/>
