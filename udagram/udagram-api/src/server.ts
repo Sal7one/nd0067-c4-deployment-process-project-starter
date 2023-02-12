@@ -4,6 +4,7 @@ import express from "express";
 import { sequelize } from "./sequelize";
 
 import { IndexRouter } from "./controllers/v0/index.router";
+import {config} from './config/config';
 
 import bodyParser from "body-parser";
 import { V0_FEED_MODELS, V0_USER_MODELS } from "./controllers/v0/model.index";
@@ -25,7 +26,7 @@ import { V0_FEED_MODELS, V0_USER_MODELS } from "./controllers/v0/model.index";
   console.log("Database Connected");
 
   const app = express();
-  const port = 8080;
+  const port = parseInt(config.PORT as string) | 8080;
 
   app.use(bodyParser.json());
 
@@ -55,7 +56,6 @@ import { V0_FEED_MODELS, V0_USER_MODELS } from "./controllers/v0/model.index";
   // Start the Server
   app.listen(port, () => {
     console.log(`Backend server is listening on port ${port}....`);
-    console.log(`Frontent server running ${process.env.URL}`);
     console.log(`press CTRL+C to stop server`);
   });
 })();
