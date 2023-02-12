@@ -53,7 +53,6 @@ jobs:
           # eb creds
           # delpoy
           command: |
-
             npm run deploy
             
 workflows:
