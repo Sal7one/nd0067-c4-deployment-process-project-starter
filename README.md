@@ -1,11 +1,12 @@
 # Hosting a Full-Stack Application
 
 # Deployment Pipeline
-```
 
-```
+1 - Circle CI Gets Notify by version control on new project verison then Builds the Project and runs test scripts
 
+2 - Circle CI Then Holds and waits for apporval if granted it will start deploying 
 
+3 - in Deployment Cricle Ci deploys an elastic beanstalk for the backend and stores the frontend files in an S3 bucket
 
 # LIVE URL (Frontend)
 ```
