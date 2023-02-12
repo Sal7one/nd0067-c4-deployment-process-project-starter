@@ -14,7 +14,7 @@
 
 ## LIVE URL (Frontend)
 
-<a href="https://salehsubmissionbuckets.s3.amazonaws.com/index.html"> Frontend</a>
+<a href="http://salehsubmissionbuckets.s3-website-us-east-1.amazonaws.com/"> Frontend</a>
 
 ## LIVE URL (Backend)
 
